@@ -1,0 +1,95 @@
+body {
+  margin:0;
+  background-color: rgb(255, 255, 249);
+  overflow-x: hidden;
+}
+.navbar {
+  overflow: hidden;
+  position:relative;
+  width: 100%;
+  top:0;
+  background-color: rgb(255, 233, 233);
+}
+#logo {
+  float:left;
+  width: 100px;
+  height: 85px;
+}
+.nav-btn {
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 15px;
+  border: 10px 10px;
+  margin-top: 20px;
+  font-size: 21px;
+}
+.nav-btn:hover {
+  background-color: rgb(252, 153, 153);
+  border-radius: 30px;
+}
+.border-round-bt {
+  border-radius: 30px;
+}
+.bg-primary {
+  background-color: rgb(255, 233, 233);
+}
+.bg-secondary {
+  background-color: rgb(252, 153, 153);
+}
+.text-primary {
+  color:rgb(151, 105, 44);
+}
+
+.text-shadow {
+  text-shadow: -1px 0 rgb(226, 9, 9);
+}
+
+.align-left {
+  float: left;
+}
+.align-right {
+  float: right;
+}
+/* a:hover {
+  background-color: rgb(252, 153, 153);
+  border-radius: 30px 30px;
+} */
+.container {
+  color:rgb(151, 105, 44);
+  text-shadow: -1px 0 rgb(226, 9, 9);
+  text-align: center;
+}
+.btn-primary {
+  border-radius: 30px 30px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 15px;
+  border: 10px 10px;
+  margin-top: 20px;
+  font-size: 21px;
+  color:rgb(151, 105, 44);
+  border: none;
+  border: 2px solid rgb(151, 105, 44);;
+}
+.btn-primary:hover {
+  background-color: rgb(255, 233, 233);
+  cursor: pointer;
+}
+.footer {
+  color:rgb(151, 105, 44);
+  text-shadow: -1px 0 rgb(226, 9, 9);
+  font-size: 21px;
+  position:relative;
+  text-align: center;
+  padding: 10px;
+  background-color:rgb(255, 233, 233);
+  margin-bottom: 0;
+  width: 100%;
+  height: fit-content;
+}
+.footer-link {
+  display: inline-block;
+  padding-left: 150px;
+  padding-right: 150px;
+}

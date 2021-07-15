@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Below I added a coffee icon near the page title in order to inform the users that this is a coffee shop web page.  -->
     <link
@@ -12,10 +12,10 @@
       href="img/454-4541047_hot-coffee-cup-with-hearts-comments-transparent-coffee.png"
     />
   </head>
-  <body id="menu">
+  <body>
     <nav class="navbar">
       <!-- Here are all elements of navbar. I will make these links functionable along the wa, or I will turn them in buttons(will see which option is better). -->
-      <a href="home.html"
+      <a href="index.html"
         ><img
           id="logo"
           src="img/logo1.png"
@@ -23,11 +23,6 @@
       /></a>
       <a
         href="home.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-left"
-        >HOME</a
-      >
-      <a
-        href="menu.html"
         class="
           nav-btn
           text-primary text-shadow
@@ -35,6 +30,11 @@
           align-left
           bg-secondary
         "
+        >HOME</a
+      >
+      <a
+        href="menu.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-left"
         >MENU</a
       >
       <a
@@ -53,29 +53,46 @@
         >Find Location</a
       >
     </nav>
-    <div class="menu text-primary">
-      <h1 class="ad-title">Menu</h1>
-      <div class="grid-container">
-        <div class="grid-item">
-          <a class="menu-link" href="hot-drinks.html">
-            <img class="menu-item" src="img/hot-drinks.jpg" />
-            <h3 class="ad-text">Hot Drinks</h3>
-          </a>
-        </div>
-        <div class="grid-item">
-          <a class="menu-link" href="cold-drinks.html"
-            ><img class="menu-item" src="img/drink2.jpg" />
-            <h3 class="ad-text">Cold Drinks</h3></a
-          >
-        </div>
-        <div class="grid-item">
-          <a class="menu-link" href="food.html">
-            <img class="menu-item" src="img/food.jpg" />
-            <h3 class="ad-text">Food</h3></a
-          >
-        </div>
-      </div>
-    </div>
+
+    <div class="secondary-box text-primary">
+      <h1 class="text-primary">Contact</h1>
+      <form action="" method="POST" class="form">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email address..."
+        />
+
+        <label for="comments">Questions/Comments/ Concerns:</label>
+        <textarea
+          id="comments"
+          name="comments"
+          placeholder="Write your comments..."
+          style="height: 200px"
+        ></textarea>
+
+        <button class="btn-secondary" type="submit" value="Submit">Submit</button>
+      </form>
+    </div><br><br><br>
+
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
     <footer class="footer">
       <a class="footer-link text-primary" href="about-as.html"> About As</a>
@@ -83,4 +100,5 @@
       <a class="footer-link text-primary" href="career.html"> Career</a>
       <p>&copy; 2021 Created by Mihaela Valac</p>
     </footer>
+  </body>
 </html>

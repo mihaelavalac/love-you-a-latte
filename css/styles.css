@@ -1,0 +1,245 @@
+body,
+html {
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+.navbar {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  top: 0;
+  background-color: rgb(255, 233, 233);
+}
+
+#logo {
+  float: left;
+  width: 100px;
+  height: 85px;
+}
+.nav-btn {
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 15px;
+  border: 10px 10px;
+  margin-top: 20px;
+  font-size: 21px;
+}
+.full-cell{
+  width: 100%;
+  max-width: 535px;
+}
+.half-td {
+  width: 50%;
+}
+.apply-table {
+  /* width: 100%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.position {
+  font-size: larger;
+  width:150px;
+  height: 40px;
+}
+.position option {
+  width: 150px;
+}
+.half-cell{
+  width: 100%; 
+  max-width: 260px
+}
+.nav-btn:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+.border-round-bt {
+  border-radius: 30px;
+}
+.bg-primary {
+  background-color: rgb(255, 233, 233);
+}
+.bg-secondary {
+  background-color: rgb(255, 255, 255);
+}
+.text-primary {
+  color: rgb(124, 85, 33);
+}
+
+.align-left {
+  float: left;
+}
+.align-right {
+  float: right;
+}
+
+.container {
+  color: rgb(151, 105, 44);
+  text-align: center;
+}
+
+.home {
+  background-image: linear-gradient(
+      rgba(88, 85, 85, 0.5),
+      rgba(88, 85, 85, 0.5)
+    ),
+    url(../img/coffee-shop.jpeg);
+  background-size: cover;
+  margin-top: -60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50%;
+  text-align: center;
+}
+.home-text {
+  font-style: bold;
+  font-size: 450%;
+  text-align: center;
+  text-shadow: -2px 0 rgb(0, 0, 0);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+.primary-box {
+  background-color: rgb(248, 194, 194);
+  display: inline-block;
+  padding: 20px;
+  width: 70%;
+  margin: 2% 15%;
+  font-size: large;
+}
+.secondary-box {
+  background-color: rgb(253, 227, 227);
+  display: inline-block;
+  padding: 20px;
+  width: 50%;
+  margin: 10% 15%;
+  font-size: large;
+}
+.about-as {
+  display: inline-block;
+  padding: 15px;
+  width: 60%;
+  margin: 2% 15%;
+  font-size: large;
+}
+
+.hours {
+  list-style: none;
+  font-size: larger;
+}
+.ad-img {
+  margin: 15px;
+  width: 350px;
+  height: 350px;
+  transition: transform 0.2s;
+}
+.ad-img:hover {
+  transform: scale(1.2);
+}
+.form-group {
+  display: inline;
+}
+.ad-title {
+  font-size: 250%;
+  text-transform: uppercase;
+}
+.ad-text {
+  font-size: 150%;
+}
+.menu {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.grid-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  margin-bottom: 120px;
+  float: left;
+}
+.menu-item {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+.location-item {
+  width: 350px;
+  height: 350px;}
+  .location-links {
+    text-decoration: none;
+    
+  }
+.location-text {
+  font-size:x-large;
+}
+
+a{
+  text-decoration:none;
+}
+
+.menu-link {
+  color: rgb(124, 85, 33);
+  text-decoration: none;
+}
+.btn-primary,
+.btn-secondary {
+  border-radius: 30px 30px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 15px;
+  border: 10px 10px;
+  margin-top: 20px;
+  font-size: 21px;
+  color: rgb(151, 105, 44);
+  border: none;
+  border: 2px solid rgb(151, 105, 44);
+}
+.btn-primary:hover {
+  cursor: pointer;
+}
+.footer {
+  color: rgb(151, 105, 44);
+  font-size: 21px;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(255, 233, 233);
+  width: 100%;
+  height: fit-content;
+}
+.title {
+  margin-top: 100px;
+}
+.large-text {
+  font-size: 150%;
+}
+.footer-link {
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}

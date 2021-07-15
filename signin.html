@@ -15,31 +15,68 @@
   <body>
     <nav class="navbar">
       <!-- Here are all elements of navbar. I will make these links functionable along the wa, or I will turn them in buttons(will see which option is better). -->
-      <a href="home.html" ><img id="logo" src="img/logo1.png" alt="The logo of the coffee shop is here!"/></a>
-      <a href="home.html" class="nav-btn text-primary text-shadow border-round-bt align-left ">HOME</a>
-      <a href="menu.html" class="nav-btn text-primary text-shadow border-round-bt align-left " >MENU</a>
-      <a href="join-now.html" class="nav-btn text-primary text-shadow border-round-bt align-right" >Join Now</a>
-      <a href="signin.html" class="nav-btn text-primary text-shadow border-round-bt align-right bg-secondary" >Sign In</a>
-      <a href="location.html" class="nav-btn text-primary text-shadow border-round-bt align-right">Find Location</a>
-      
+      <a href="home.html"
+        ><img
+          id="logo"
+          src="img/logo1.png"
+          alt="The logo of the coffee shop is here!"
+      /></a>
+      <a
+        href="home.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-left"
+        >HOME</a
+      >
+      <a
+        href="menu.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-left"
+        >MENU</a
+      >
+      <a
+        href="join-now.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        >Join Now</a
+      >
+      <a
+        href="signin.html"
+        class="
+          nav-btn
+          text-primary text-shadow
+          border-round-bt
+          align-right
+          bg-secondary
+        "
+        >Sign In</a
+      >
+      <a
+        href="location.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        >Find Location</a
+      >
     </nav>
-    <div class="container"> 
-      
-    </div>
-    <div class="ads one">
+    <div class="secondary-box text-primary">
+      <h1 class="text-primary">Sign In</h1>
+      <form method="POST" class="form">
+        <label for="uname"><b>Username</b></label><br>
+        <input style="width:50%"type="text" placeholder="Enter Username" name="uname" required /><br>
 
+        <label for="psw"><b>Password</b></label><br>
+        <input style="width:50%"
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        /><br>
+        <button class="btn-secondary" type="submit">Login</button><br />
+       <p style="display: inline;"><input type="checkbox" id="remember" name="remember" />
+        <label for="remember"> Remember me</label><br /></p> 
+      </form>
     </div>
-    <div class="ads one">
 
-    </div>
-    <div class="ads one">
-
-    </div>
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
-    <footer class="footer">
-      <a class="footer-link"> About As</a>
-      <a class="footer-link"> Contact</a>
-      <a class="footer-link"> Career</a>
+    <footer class="footer ">
+      <a class="footer-link text-primary" href="about-as.html"> About As</a>
+      <a class="footer-link text-primary" href="contact.html"> Contact</a>
+      <a class="footer-link text-primary" href="career.html"> Career</a>
       <p>&copy; 2021 Created by Mihaela Valac</p>
     </footer>
   </body>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- Below I added a coffee icon near the page title in order to inform the users that this is a coffee shop web page.  -->
     <link
       rel="icon"
@@ -15,7 +15,7 @@
   <body>
     <nav class="navbar">
       <!-- Here are all elements of navbar. I will make these links functionable along the wa, or I will turn them in buttons(will see which option is better). -->
-      <a href="index.html"
+      <a href="home.html"
         ><img
           id="logo"
           src="img/logo1.png"
@@ -30,38 +30,39 @@
           align-left
           bg-secondary
         "
+        alt="Home link"
         >HOME</a
       >
       <a
         href="menu.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-left"
+        class="nav-btn text-primary text-shadow border-round-bt align-left" alt="menu link"
         >MENU</a
       >
       <a
         href="join-now.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        class="nav-btn text-primary text-shadow border-round-bt align-right" alt="join now link"
         >Join Now</a
       >
       <a
         href="signin.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        class="nav-btn text-primary text-shadow border-round-bt align-right" alt="sign in link"
         >Sign In</a
       >
       <a
         href="location.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        class="nav-btn text-primary text-shadow border-round-bt align-right" alt="find locations link"
         >Find Location</a
       >
     </nav>
-
-    <div class="about-as text-primary">
-      <h1> About Love You a Latte!</h1>
-      <p class="">Love You a Latte is a family business which operates in Columbus, Ohio. We provide fresh and tasty foods & drinks for all our costumers. The first shop was open in November 2019, in Dublin, Ohio, followed by extra two locations during 2020s. The shop's coffee is supplied by Colombia, and the ingredients for foods are provided by local farms. We serve a variety of hot and cold drinks, meals and deserts. 
-      </p>
+    
+    <div class="about-as text-primary" alt="Text about the company">
+      <h1 class="title"> About Love You a Latte!</h1>
+      <p class="large-text">Love You a Latte is a family business which operates in Columbus, Ohio. We provide fresh and tasty foods & drinks for all our costumers. The first shop was open in November 2019, in Dublin, Ohio, followed by extra two locations during 2020s. The shop's coffee is supplied by Colombia, and the ingredients for foods are provided by local farms. We serve a variety of hot and cold drinks, meals and deserts. 
+      </p><br>
       <h2> Phone Number: 614-557-2745</h2>
-      <h2> Email: loveyoualatteoh@gmail.com</h2>
+      <h2> Email: loveyoualatteoh@gmail.com</h2><br>
       <!-- <h2>Hours of Operation:</h2> -->
-      <ul class="hours"><h2>Hours of Operation:</h2>
+      <ul class="hours" alt="hours of operation"><h2>Hours of Operation:</h2>
         <li>Sunday: 10AM-10PM</li>
         <li>Monday: 11AM-10PM</li>
         <li>Tuesday: 11AM-10PM</li>
@@ -73,11 +74,11 @@
     </div>
 
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
-    <footer class="footer ">
-      <a class="footer-link text-primary" href="about-as.html"> About As</a>
-      <a class="footer-link text-primary" href="contact.html"> Contact</a>
-      <a class="footer-link text-primary" href="career.html"> Career</a>
-      <p>&copy; 2021 Created by Mihaela Valac</p>
+    <footer class="footer">
+      <a class="footer-link text-primary" href="about-as.html" alt="about as link"> About As</a>
+      <a class="footer-link text-primary" href="contact.html" alt="contact link"> Contact</a>
+      <a class="footer-link text-primary" href="career.html" alt="career link"> Career</a>
+      <p>&copy; 2021 Created with &#9825; by <a class="text-primary" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
     </footer>
   </body>
 </html>

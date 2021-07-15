@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- Below I added a coffee icon near the page title in order to inform the users that this is a coffee shop web page.  -->
     <link
       rel="icon"
@@ -15,7 +15,7 @@
   <body>
     <nav class="navbar">
       <!-- Here are all elements of navbar. I will make these links functionable along the wa, or I will turn them in buttons(will see which option is better). -->
-      <a href="index.html"
+      <a href="home.html"
         ><img
           id="logo"
           src="img/logo1.png"
@@ -54,17 +54,130 @@
       >
     </nav>
 
-    <div class="container text-primary">
-      <h1> Career</h1>
-      
+    <div class="container ">
+      <h2>Employment Application</h2>
+      <table  class="apply-table" cellpadding="5" cellspacing="0">
+        <tr>
+          <td class="td-half" >
+            <label for="First_Name"><b>First name *</b></label
+            ><br />
+            <input
+              name="First_Name"
+              type="text"
+              maxlength="50"
+              class="half-cell"
+            />
+          </td>
+          <td class="td-half">
+            <label for="Last_Name"><b>Last name *</b></label
+            ><br />
+            <input
+              name="Last_Name"
+              type="text"
+              maxlength="50"
+              class="half-cell"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="Email_Address"><b>Email *</b></label
+            ><br />
+            <input
+              name="Email_Address"
+              type="text"
+              maxlength="100"
+              class="full-cell"
+            />
+          </td>
+        </tr>
+        <tr>
+        <tr>
+          <td colspan="2" class="text-primary">
+            <label for="position"><b>Position you are applying for *</b></label
+            ><br />
+            <select class="position text-primary" name="jobs">
+              <option value="server">Server</option>
+              <option value="barista">Barista</option>
+              <option value="manager">Manager</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Salary"><b>Salary requirements</b></label
+            ><br />
+            <input
+              name="Salary"
+              type="text"
+              maxlength="50"
+              class="half-cell"
+            />
+          </td>
+          <td>
+            <label for="StartDate"><b>When can you start?</b></label
+            ><br />
+            <input
+              name="StartDate"
+              type="text"
+              maxlength="50"
+              class="half-cell"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="Phone"><b>Phone *</b></label
+            ><br />
+            <input
+              name="Phone"
+              type="text"
+              maxlength="100"
+              class="full-cell"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="Organization"><b>Last company you worked for</b></label
+            ><br />
+            <input
+              name="Organization"
+              type="text"
+              maxlength="100"
+              class="full-cell"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="Reference"
+              ><b>Reference / Comments / Questions</b></label
+            ><br />
+            <textarea
+              name="Reference"
+              rows="7"
+              cols="40"
+              class="full-cell"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" >
+            <button class="btn-secondary"
+            name="skip_submit"   
+            value="Send Application"> Send Application</button>
+          </td>
+        </tr>
+      </table><br>
     </div>
 
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
-    <footer class="footer ">
+    <footer class="footer">
       <a class="footer-link text-primary" href="about-as.html"> About As</a>
       <a class="footer-link text-primary" href="contact.html"> Contact</a>
       <a class="footer-link text-primary" href="career.html"> Career</a>
-      <p>&copy; 2021 Created by Mihaela Valac</p>
+      <p>&copy; 2021 Created with &#9825; by <a class="text-primary" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
     </footer>
   </body>
 </html>

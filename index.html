@@ -1,11 +1,11 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Love You a Latte!</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- Below I added a coffee icon near the page title in order to inform the users that this is a coffee shop web page.  -->
     <link
       rel="icon"
@@ -14,34 +14,86 @@
   </head>
   <body>
     <nav class="navbar">
-      <!-- Here are all elements of navbar. I will make these links functionable along the wa, or I will turn them in buttons(will see which option is better). -->
-      <a href="home.html" ><img id="logo" src="img/logo1.png" alt="The logo of the coffee shop is here!"/></a>
-      <a href="home.html" class="nav-btn text-primary text-shadow border-round-bt align-left bg-secondary">HOME</a>
-      <a href="menu.html" class="nav-btn text-primary text-shadow border-round-bt align-left" >MENU</a>
-      <a href="join-now.html" class="nav-btn text-primary text-shadow border-round-bt align-right" >Join Now</a>
-      <a href="signin.html" class="nav-btn text-primary text-shadow border-round-bt align-right" >Sign In</a>
-      <a href="location.html" class="nav-btn text-primary text-shadow border-round-bt align-right">Find Location</a>
-      
+      <!-- Here are all elements of navbar. -->
+      <a href="home.html"
+        ><img
+          id="logo"
+          src="img/logo1.png"
+          alt="The logo of the coffee shop is here!"
+      /></a>
+      <a
+        href="home.html"
+        class="
+          nav-btn
+          text-primary text-shadow
+          border-round-bt
+          align-left
+          bg-secondary
+        "
+        >HOME</a
+      >
+      <a
+        href="menu.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-left"
+        >MENU</a
+      >
+      <a
+        href="join-now.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        >Join Now</a
+      >
+      <a
+        href="signin.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        >Sign In</a
+      >
+      <a
+        href="location.html"
+        class="nav-btn text-primary text-shadow border-round-bt align-right"
+        >Find Location</a
+      >
     </nav>
-    <div class="container"> 
-      <h1 id="welcome"> Welcome to Love You a Latte</h1>
-      <button href="menu.html" class="btn-primary" > Order Now</button>
+    <div class="home">
+      <h1 class="home-text" alt="Coffee Shop Image in the background">Welcome to Love You a Latte</h1>
     </div>
-    <div class="ads one">
 
+    <div class="primary-box text-primary">
+      <img class="ad-img align-left" src="img/drink1.jpg" alt="strawberry mint boom image" />
+      <section>
+        <h1 class="ad-title">Strawberry-Mint Boom</h1>
+        <p class="ad-text">
+          What can be better during this hot summer season ?! Refresh your day with our new strawberry-mint refresher beverage. 
+        </p>
+        <a class="btn-primary" href="cold-drinks.html" alt="Order This Drink Link">Order This Drink</a>
+      </section>
     </div>
-    <div class="ads one">
+    <div class="primary-box text-primary">
+      <img class="ad-img align-right" src="img/cold-drinks.jpg" alt="Vanilla ice coffee image"/>
+      <section >
+        <h1 class="ad-title">Vanilla Ice Coffee</h1>
+        <p class="ad-text">
+          The supper hydrating and flavorful Vanilla Ice Coffee is our "MUST TRY" beverage this summer. 
+        </p>
+        <a class="btn-primary"  href="cold-drinks.html" alt="Order This Drink Link">Order This Drink</a>
+      </section>
+    </div>
+    <div class="primary-box text-primary">
+      <img class="ad-img align-left" src="img/drink3.jpg" alt="Love You Ice Tea Image"/>
+      <section >
+        <h1 class="ad-title">Love You Ice Tea</h1>
+        <p class="ad-text">
+          Pamper yourself this season with our classic cold tea drink <br>with a deep mint and lemon flavor.
+        </p>
+        <a class="btn-primary"  href="cold-drinks.html" alt="Order This Drink Link">Order This Drink</a>
+      </section>
+    </div>
 
-    </div>
-    <div class="ads one">
-
-    </div>
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
     <footer class="footer">
-      <a class="footer-link"> About As</a>
-      <a class="footer-link"> Contact</a>
-      <a class="footer-link"> Career</a>
-      <p>&copy; 2021 Created by Mihaela Valac</p>
+      <a class="footer-link text-primary" href="about-as.html"> About As</a>
+      <a class="footer-link text-primary" href="contact.html"> Contact</a>
+      <a class="footer-link text-primary" href="career.html"> Career</a>
+      <p>&copy; 2021 Created with &#9825; by <a class="text-primary" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
     </footer>
   </body>
 </html>

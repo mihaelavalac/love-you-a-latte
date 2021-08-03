@@ -11,47 +11,42 @@
       rel="icon"
       href="img/454-4541047_hot-coffee-cup-with-hearts-comments-transparent-coffee.png"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body id="menu">
-    <nav class="navbar">
-      <!-- Here are all elements of navbar. I will make these links functionable along the wa, or I will turn them in buttons(will see which option is better). -->
-      <a href="home.html"
+    <nav class="navbar navbar-inverse" style='background-color: rgb(255, 233, 233); border:none; margin-bottom: 0; '>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" style="margin-top:25px; border:none;" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                       
+          </button>
+          <a href="home.html"
         ><img
+        
           id="logo"
           src="img/logo1.png"
           alt="The logo of the coffee shop is here!"
       /></a>
-      <a
-        href="home.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-left"
-        >HOME</a
-      >
-      <a
-        href="menu.html"
-        class="
-          nav-btn
-          text-primary text-shadow
-          border-round-bt
-          align-left
-          bg-secondary
-        "
-        >MENU</a
-      >
-      <a
-        href="join-now.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
-        >Join Now</a
-      >
-      <a
-        href="signin.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
-        >Sign In</a
-      >
-      <a
-        href="location.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
-        >Find Location</a
-      >
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar"  style="margin-top:17px; color: rgb(151, 105, 44) !important; ">
+          <ul class="nav navbar-nav " >
+            <li><a href="home.html">Home</a></li>
+            <li class="active-link "><a href="menu.html">Menu</a></li>
+            <li  ><a href="about-as.html">About Us</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="location.html"><span class="glyphicon glyphicon-map-marker"></span> Locations</a></li>
+            <li><a href="join-now.html"><span class="glyphicon glyphicon-user"></span> Join Now</a></li>
+            <li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <div class="menu text-primary">
       <h1 class="ad-title">Food</h1>
@@ -84,10 +79,7 @@
     </div>
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
     <footer class="footer">
-      <a class="footer-link text-primary" href="about-as.html"> About As</a>
-      <a class="footer-link text-primary" href="contact.html"> Contact</a>
-      <a class="footer-link text-primary" href="career.html"> Career</a>
-      <p>&copy; 2021 Created with &#9825; by <a class="text-primary" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
+      <p>&copy; 2021 Created with &#9825; by <a class="link" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
     </footer>
   </body>
 </html>

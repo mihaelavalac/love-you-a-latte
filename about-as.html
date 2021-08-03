@@ -11,56 +11,49 @@
       rel="icon"
       href="img/454-4541047_hot-coffee-cup-with-hearts-comments-transparent-coffee.png"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <nav class="navbar">
-      <!-- Here are all elements of navbar. I will make these links functionable along the wa, or I will turn them in buttons(will see which option is better). -->
-      <a href="home.html"
+    <nav class="navbar navbar-inverse navbar-expand-lg" style='background-color: rgb(255, 233, 233); border:none; margin-bottom: 0; '>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" style="margin-top:25px; border:none;" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                       
+          </button>
+          <a href="index.html"
         ><img
+        
           id="logo"
           src="img/logo1.png"
           alt="The logo of the coffee shop is here!"
       /></a>
-      <a
-        href="home.html"
-        class="
-          nav-btn
-          text-primary text-shadow
-          border-round-bt
-          align-left
-          bg-secondary
-        "
-        alt="Home link"
-        >HOME</a
-      >
-      <a
-        href="menu.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-left" alt="menu link"
-        >MENU</a
-      >
-      <a
-        href="join-now.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right" alt="join now link"
-        >Join Now</a
-      >
-      <a
-        href="signin.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right" alt="sign in link"
-        >Sign In</a
-      >
-      <a
-        href="location.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right" alt="find locations link"
-        >Find Location</a
-      >
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar"  style="margin-top:17px; color: rgb(151, 105, 44) !important; ">
+          <ul class="nav navbar-nav" >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li  class="active-link "><a href="about-as.html">About Us</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="location.html"><span class="glyphicon glyphicon-map-marker"></span> Locations</a></li>
+            <li><a href="join-now.html"><span class="glyphicon glyphicon-user"></span> Join Now</a></li>
+            <li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     
-    <div class="about-as text-primary" alt="Text about the company">
-      <h1 class="title"> About Love You a Latte!</h1>
-      <p class="large-text">Love You a Latte is a family business which operates in Columbus, Ohio. We provide fresh and tasty foods & drinks for all our costumers. The first shop was open in November 2019, in Dublin, Ohio, followed by extra two locations during 2020s. The shop's coffee is supplied by Colombia, and the ingredients for foods are provided by local farms. We serve a variety of hot and cold drinks, meals and deserts. 
+    <div class="container title about-as  text-primary" alt="Text about the company">
+      <h1 class=""> About Love You a Latte!</h1>
+      <p class="title">Love You a Latte is a <a class="link" href="https://en.wikipedia.org/wiki/Family_business" target="_blank" >family business</a> which operates in Columbus, Ohio. We provide fresh and tasty foods & drinks for all our costumers. The first shop was open in November 2019, in Dublin, Ohio, followed by extra two locations during 2020s. The shop's coffee is supplied by <a class="link" href="https://thosecoffeepeople.com/" target="_blank">Colombia</a>, and the ingredients for foods are provided by local <a class="link" href="https://www.pearlmarket.org/" target="_blank">Pearl Market</a>. We serve a variety of hot and cold drinks, meals and deserts. 
       </p><br>
-      <h2> Phone Number: 614-557-2745</h2>
-      <h2> Email: loveyoualatteoh@gmail.com</h2><br>
+      
       <!-- <h2>Hours of Operation:</h2> -->
       <ul class="hours" alt="hours of operation"><h2>Hours of Operation:</h2>
         <li>Sunday: 10AM-10PM</li>
@@ -71,14 +64,13 @@
         <li>Friday: 11AM-11PM</li>
         <li>Saturday: 10AM-11PM</li>
       </ul>
+      <h3 >  &phone; 614-557-2745</h3>
+      <h3 style="text-align: center;"> &#9993; loveyoualatte@gmail.com</h3><br>
     </div>
 
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
     <footer class="footer">
-      <a class="footer-link text-primary" href="about-as.html" alt="about as link"> About As</a>
-      <a class="footer-link text-primary" href="contact.html" alt="contact link"> Contact</a>
-      <a class="footer-link text-primary" href="career.html" alt="career link"> Career</a>
-      <p>&copy; 2021 Created with &#9825; by <a class="text-primary" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
+      <p>&copy; 2021 Created with &#9825; by <a class="link" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
     </footer>
   </body>
 </html>

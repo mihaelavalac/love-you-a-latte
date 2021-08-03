@@ -11,89 +11,204 @@
       rel="icon"
       href="img/454-4541047_hot-coffee-cup-with-hearts-comments-transparent-coffee.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   </head>
   <body>
-    <nav class="navbar">
-      <!-- Here are all elements of navbar. -->
-      <a href="home.html"
-        ><img
-          id="logo"
-          src="img/logo1.png"
-          alt="The logo of the coffee shop is here!"
-      /></a>
-      <a
-        href="home.html"
-        class="
-          nav-btn
-          text-primary text-shadow
-          border-round-bt
-          align-left
-          bg-secondary
-        "
-        >HOME</a
-      >
-      <a
-        href="menu.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-left"
-        >MENU</a
-      >
-      <a
-        href="join-now.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
-        >Join Now</a
-      >
-      <a
-        href="signin.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
-        >Sign In</a
-      >
-      <a
-        href="location.html"
-        class="nav-btn text-primary text-shadow border-round-bt align-right"
-        >Find Location</a
-      >
+    <nav
+      class="navbar navbar-inverse"
+      style="
+        background-color: rgb(255, 233, 233);
+        border: none;
+        margin-bottom: 0;
+      "
+    >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            style="
+              margin-top: 25px;
+              border: none;
+              background-color: white !important;
+            "
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="home.html"
+            ><img
+              id="logo"
+              src="img/logo1.png"
+              alt="The logo of the coffee shop is here!"
+          /></a>
+        </div>
+        <div
+          class="collapse navbar-collapse"
+          id="myNavbar"
+          style="margin-top: 17px; color: rgb(151, 105, 44) !important"
+        >
+          <ul class="nav navbar-nav">
+            <li class="active-link"><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about-as.html">About Us</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="location.html"
+                ><span class="glyphicon glyphicon-map-marker"></span>
+                Locations</a
+              >
+            </li>
+            <li>
+              <a href="join-now.html"
+                ><span class="glyphicon glyphicon-user"></span> Join Now</a
+              >
+            </li>
+            <li>
+              <a href="signin.html"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
     <div class="home">
-      <h1 class="home-text" alt="Coffee Shop Image in the background">Welcome to Love You a Latte</h1>
+      <h1 class="home-text" id='welcome-message' alt="Coffee Shop Image in the background">
+      </h1>
     </div>
 
     <div class="primary-box text-primary">
-      <img class="ad-img align-left" src="img/drink1.jpg" alt="strawberry mint boom image" />
-      <section>
+      <img
+        class="ad-img align-left"
+        src="img/drink1.jpg"
+        alt="strawberry mint boom image"
+      />
+      <section class="home-section">
         <h1 class="ad-title">Strawberry-Mint Boom</h1>
         <p class="ad-text">
-          What can be better during this hot summer season ?! Refresh your day with our new strawberry-mint refresher beverage. 
+          What can be better during this hot summer season ?! Refresh your day
+          with our new strawberry-mint refresher beverage.
         </p>
-        <a class="btn-primary" href="cold-drinks.html" alt="Order This Drink Link">Order This Drink</a>
+        <a
+          class="btn-primary order-btn"
+          href="cold-drinks.html#stw-boom"
+          alt="Order This Drink Link"
+          >Order This Drink</a
+        >
       </section>
     </div>
     <div class="primary-box text-primary">
-      <img class="ad-img align-right" src="img/cold-drinks.jpg" alt="Vanilla ice coffee image"/>
-      <section >
+      <img
+        class="ad-img align-right"
+        src="img/cold-drinks.jpg"
+        alt="Vanilla ice coffee image"
+      />
+      <section class="home-section">
         <h1 class="ad-title">Vanilla Ice Coffee</h1>
         <p class="ad-text">
-          The supper hydrating and flavorful Vanilla Ice Coffee is our "MUST TRY" beverage this summer. 
+          The supper hydrating and flavorful Vanilla Ice Coffee is our "MUST
+          TRY" beverage this summer.
         </p>
-        <a class="btn-primary"  href="cold-drinks.html" alt="Order This Drink Link">Order This Drink</a>
+        <a 
+          class="btn-primary order-btn"
+          href="cold-drinks.html#vanilla-coffee"
+          alt="Order This Drink Link"
+          >Order This Drink</a
+        >
       </section>
     </div>
     <div class="primary-box text-primary">
-      <img class="ad-img align-left" src="img/drink3.jpg" alt="Love You Ice Tea Image"/>
-      <section >
+      <img
+        class="ad-img align-left"
+        src="img/drink3.jpg"
+        alt="Love You Ice Tea Image"
+      />
+      <section class="home-section">
         <h1 class="ad-title">Love You Ice Tea</h1>
         <p class="ad-text">
-          Pamper yourself this season with our classic cold tea drink <br>with a deep mint and lemon flavor.
+          Pamper yourself this season with our classic cold tea drink <br />with
+          a deep mint and lemon flavor.
         </p>
-        <a class="btn-primary"  href="cold-drinks.html" alt="Order This Drink Link">Order This Drink</a>
+        <a
+          class="btn-primary order-btn"
+          href="cold-drinks.html#ice-tea"
+          alt="Order This Drink Link"
+          >Order This Drink</a
+        >
       </section>
     </div>
 
     <!-- Here I created the footer with several links. All of them will work until the end of the project. -->
     <footer class="footer">
-      <a class="footer-link text-primary" href="about-as.html"> About As</a>
-      <a class="footer-link text-primary" href="contact.html"> Contact</a>
-      <a class="footer-link text-primary" href="career.html"> Career</a>
-      <p>&copy; 2021 Created with &#9825; by <a class="text-primary" href="https://github.com/mihaelavalac" target="_blank">Mihaela Valac</a></p>
+      <p>
+        &copy; 2021 Created with &#9825; by
+        <a class="link" href="https://github.com/mihaelavalac" target="_blank"
+          >Mihaela Valac</a
+        >
+      </p>
     </footer>
+    <script type="text/javascript">
+      //My JavaScript Code is bellow.
+      var words = ['Welcome to Love You a Latte!', 'A great coffee always makes a great day!', 'When sun is shining, refreshers are coming!'],
+    part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 25,
+    speed = 70;
+var displayWelcome = function () {
+  setInterval(function () {
+    if (forwards) {
+      if (offset >= words[i].length) {
+        ++skip_count;
+        if (skip_count == skip_delay) {
+          forwards = false;
+          skip_count = 0;
+        }
+      }
+    }
+    else {
+      if (offset == 0) {
+        forwards = true;
+        i++;
+        offset = 0;
+        if (i >= len) {
+          i = 0;
+        }
+      }
+    }
+    part = words[i].substr(0, offset);
+    if (skip_count == 0) {
+      if (forwards) {
+        offset++;
+      }
+      else {
+        offset--;
+      }
+    }
+    $('#welcome-message').text(part);
+  },speed);
+};
+
+$(document).ready(function () {
+  displayWelcome();
+});
+    </script>
   </body>
 </html>

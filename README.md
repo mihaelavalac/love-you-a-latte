@@ -5,11 +5,11 @@ Love you a latte is the final project created for my HTML and CSS class at Colum
 
 This project is a potential application for a coffee shop business. The site provides drinks and foods, as well as locations and about us sections. 
 
-![image](img/img2)
+![image](img/img2.png)
 
-![image](img/img3)
+![image](img/img3.png)
 
-![image](img/img4)
+![image](img/img4.png)
 
 ##In Progress
 
